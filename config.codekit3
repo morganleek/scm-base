@@ -3052,6 +3052,25 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"/README.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/README.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
 	"/style.css": {
 		"aP": 1,
 		"bl": 0,
@@ -3068,6 +3087,14 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/template-parts/blocks/card/card.php",
+		"oF": 0
+		},
+	"/template-parts/blocks/slideshow/slideshow.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/template-parts/blocks/slideshow/slideshow.php",
 		"oF": 0
 		}
 	},

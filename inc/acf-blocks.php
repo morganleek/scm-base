@@ -1,6 +1,6 @@
 <?php
   function register_acf_block_types() {
-    // register a testimonial block.
+    // Cards
     acf_register_block_type(
       array(
         'name'              => 'card',
@@ -10,6 +10,19 @@
         'category'          => 'formatting',
         'icon'              => 'admin-comments',
         'keywords'          => array( 'card' ),
+      )
+    );
+
+    // Slideshow
+    acf_register_block_type(
+      array(
+        'name'              => 'slideshow',
+        'title'             => __('Slideshow'),
+        'description'       => __('A custom slideshow block.'),
+        'render_template'   => 'template-parts/blocks/slideshow/slideshow.php',
+        'category'          => 'formatting',
+        'icon'              => 'slides',
+        'keywords'          => array( 'slideshow', 'gallery' ),
       )
     );
   }

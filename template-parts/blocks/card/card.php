@@ -30,8 +30,8 @@ $title = get_field('title') ?: '';
 $content = get_field('content') ?: '';
 $link = get_field('link') ?: false;
 
-$background_color = get_field('background_color');
-$text_color = get_field('text_color');
+$background_color = get_field('background_color')? : '#ffffff';
+$text_color = get_field('text_color')? : '#000000';
 
 ?>
 <div id="<?php echo esc_attr($id); ?>" class="<?php echo esc_attr($className); ?>">

@@ -4,13 +4,13 @@
   * URL: morganleek.me
   */
 
-  $SCM_VERSION = "1.0.1562146407";
+  $SCM_VERSION = "1.0.1562156847";
 
   // Theme Setup
   function scm_setup() {
     add_editor_style( 'css/screen-editor.css' );
   }
-  add_action('after_setup_theme', 'scm_setup' );
+  add_action('init', 'scm_setup' );
 
   // Enqueue Styles
   function scm_enqueue_styles() {
