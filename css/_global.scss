@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-size: 1.5rem;
+  h1, h2, h3, h4, h5, h6 {
+    margin: 1em 0;
+    font-weight: normal;
+  }
+  h1 {
+
+  }
+  h2 {
+
+  }
+  h3 {
+
+  }
+  h4 {
+
+  }
+  h5 {
+
+  }
+  h6 {
+
+  }
+  p {
+    margin: 1em 0;
+  }
+  ol, ul, dl {
+    margin: 1em 0;
+    li {
+
+    }
+  }
+  input[type="text"],
+  input[type="search"] {
+    font-size: 2rem;
+    &::placeholder {
+      color: #8e8e8e;
+    }
+  }
+}

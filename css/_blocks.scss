@@ -1,0 +1,16 @@
+.card {
+  border: 1px solid #000;
+  padding: 10px 20px;
+  .wp-block-columns & {
+    padding: 0;
+    .card-copy {
+      padding: 0 20px 20px;
+    }
+  }
+  .card-image {
+    border-bottom: 5px solid green;
+    img {
+      display: block;
+    }
+  }
+}
